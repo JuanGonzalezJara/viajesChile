@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+.resizeLogo{
+    width: 1.5rem;
+}
+
+.navbar{
+    z-index: 2;
+}
+
+
+:hover {
+    outline: 1px solid red;
+  }
