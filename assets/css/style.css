@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     font-family: 'Rubik', sans-serif;
@@ -7,9 +11,9 @@ body{
     width: 1.5rem;
 }
 
-.navbar{
+/* .navbar{
     z-index: 2;
-}
+} */
 
 .imgCardResize{
     width: 100%;
@@ -21,6 +25,14 @@ p{
     font-size: 1rem;
 }
 
-:hover {
+.bordeContraste{
+    border-color: white;
+    border-style: outset;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+/* :hover {
     outline: 1px solid red;
-  }
+  } */
